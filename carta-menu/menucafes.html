@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Etiqueta raíz del documento, con el idioma español -->
+<head> <!-- Sección de configuración del documento (no visible para el usuario) --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página se adapte 
+    correctamente a dispositivos móviles -->
+    <link rel="stylesheet" href="stylesCafe.css"> <!-- Vincula un archivo externo 
+    de estilos CSS para dar formato a la página -->
+    <meta charset="utf-8"> <!-- Define el conjunto de caracteres usado: UTF-8 (permite tildes y ñ) -->
+    <title>Cafe Menu</title>  <!-- Título que aparece en la pestaña del navegador -->
+</head>
+
+<body> <!-- Aquí empieza el contenido visible de la página -->
+    <div class="menu"> <!-- Contenedor general del menú con clase "menu" -->
+        <main> <!-- Etiqueta semántica que contiene el contenido principal -->
+            <h1>CAMPER CAFE</h1> <!-- Título principal grande del sitio -->
+            <p class="established">Est. 2020</p>  <!-- Texto que indica el año de establecimiento, con clase para estilos -->
+            <hr> <!-- Línea horizontal para separar secciones -->
+            <section> <!-- Sección que contiene los productos de café -->
+                <h2>Coffee</h2> <!-- Subtítulo para la categoría de café -->
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="Coffee icon"> <!-- Imagen representando café. 
+                El "alt" es texto alternativo si no se carga -->
+                <article class="item">  <!-- Cada artículo representa una bebida con su sabor y precio -->
+                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+                    <!-- Nombre del café con clase "flavor" y su precio con clase "price" -->
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Mocha</p><p class="price">4.50</p>
+                </article>
+            </section>
+            <section> <!-- Sección que contiene los postres -->
+                <h2>Desserts</h2> <!-- Subtítulo para la categoría de postres -->
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"> <!-- Imagen de postres. El "alt" describe la imagen si no se muestra -->
+                <article class="item">
+                    <!-- Lista de postres con su nombre y precio -->
+                    <p class="dessert">Donut</p><p class="price">1.50</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+                </article>
+                <article class="item">
+                    <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+                </article>
+            </section>
+        </main>
+        <hr class="bottom-line"> <!-- Otra línea horizontal, probablemente estilizada con CSS -->
+        <footer>Derechos de autor (nombre del restaurant)</footer>
+    </div><!-- Fin del div .menu -->
+</body>
+
+</html>
